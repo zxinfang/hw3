@@ -1,0 +1,119 @@
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    header,
+    footer {
+        width: 100vw;
+        height: 16vh;
+    }
+    
+    header {
+        justify-content: space-around;
+        margin-top: -10px;
+    }
+    
+    .content {
+        display: flex;
+        margin: 20px;
+        align-items: center;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    a:link {
+        color: black;
+        text-decoration-line: none;
+    }
+    
+    a:hover,
+    a:active {
+        color: black;
+        text-decoration: underline 0.5px black;
+    }
+    
+    a:visited {
+        color: black;
+    }
+    
+    .wrapper {
+        width: 100vw;
+        height: 250px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .search {
+        width: 100vw;
+        height: 50px;
+    }
+    
+    .search_bar {
+        width: 37vw;
+        height: 45px;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 20px;
+        outline: none;
+        text-indent: 40px;
+        font-size: 18px;
+        z-index: 1;
+    }
+    
+    .search i {
+        position: relative;
+        left: 35px;
+        color: #B2B2B2;
+    }
+    
+    button {
+        position: relative;
+        border: none;
+        background-color: white;
+        margin-left: -40px;
+        top: 5px;
+        z-index: 2;
+    }
+    
+    .btn input {
+        font-size: 14px;
+        margin: 20px 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .f_content {
+        width: 100vw;
+        height: 100px;
+        background-color: whitesmoke;
+        margin-top: 227px;
+        color: gray;
+    }
+    
+    .top {
+        margin: 15px 30px;
+        font-size: 14px;
+    }
+    
+    .bottom {
+        margin: 5px 30px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
